@@ -23,4 +23,19 @@ export default defineConfig({
             },
         }),
     ],
+    resolve: {
+        alias: {
+            routes: '/src/routes',
+            pages: '/src/pages',
+            components: '/src/components',
+            ui: '/src/components/ui',
+            services: '/src/services',
+            hooks: '/src/hooks',
+            utils: '/src/utils',
+            types: '/src/types',
+            store: '/src/store',
+            features: '/src/features',
+            config: '/src/config',
+        },
+    },
 });
