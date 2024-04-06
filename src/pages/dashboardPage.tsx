@@ -16,7 +16,7 @@ const DashboardPage = () => {
                     <Box>
                         <Image src={avatar} alt='avatar' />
                     </Box>
-                    <Box display='flex' gap={3}>
+                    <Box display='flex' gap={3} pt={5}>
                         <Box>
                             <Image src={notification} alt='notification' />
                         </Box>

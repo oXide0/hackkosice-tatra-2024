@@ -29,7 +29,7 @@ const ChatPage = () => {
 
     return (
         <NavigationLayout>
-            <Box p={4} height='92%' display='flex' flexDir='column'>
+            <Box p={4} height='90%' display='flex' flexDir='column'>
                 {showHeading && (
                     <>
                         <Heading size='lg' mb={4}>

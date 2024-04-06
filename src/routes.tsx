@@ -7,10 +7,12 @@ import Layout from './components/layout';
 import DashboardPage from './pages/dashboardPage';
 import LoginPage from './pages/loginPage';
 import ChatPage from 'pages/chatPage';
+import MainPage from 'pages/mainPage';
 
 export const routes = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/' element={<Layout />}>
+            <Route index element={<MainPage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/start' element={<StartPage />} />
             <Route path='/dashboard' element={<DashboardPage />} />
