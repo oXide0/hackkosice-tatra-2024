@@ -21,10 +21,10 @@ const MainPage = () => {
                 Tatra Investments
             </Heading>
             <Button
-                width='80%'
+                width='90%'
                 colorScheme='brand'
                 textColor='white'
-                onClick={() => navigate('/login')}
+                onClick={() => navigate('/start')}
             >
                 Get started
             </Button>

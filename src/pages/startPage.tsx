@@ -23,7 +23,7 @@ const StartPage = () => {
     };
 
     return (
-        <Box display='flex' flexDirection='column' height='100%' pb={4} px={4}>
+        <Box display='flex' flexDirection='column' height='100%' pb={8} px={4}>
             <Box
                 flex='1 1 auto'
                 display='flex'
