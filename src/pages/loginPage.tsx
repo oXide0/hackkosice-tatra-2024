@@ -24,7 +24,7 @@ const LoginPage = () => {
 
     return (
         <PageLayout>
-            <Box pb={10} as='form' onSubmit={handleSubmit(onSubmit)}>
+            <Box pb={10} display='flex' justifyContent='center'>
                 <img src={tatraLogo} alt='logo' />
             </Box>
             <Box

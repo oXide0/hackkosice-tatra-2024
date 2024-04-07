@@ -61,7 +61,7 @@ const DashboardPage = () => {
                         <img src={graph} />
                     </Box>
                 </Box>
-                <Box display='flex' justifyContent='center' pb={16} flex='1 1 auto'>
+                <Box>
                     <img src={currencies} />
                 </Box>
             </Box>

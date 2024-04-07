@@ -7,6 +7,9 @@ import top2 from '../assets/top-2.png';
 const PortfolioPage = () => {
     return (
         <NavigationLayout>
+            <Heading fontWeight='200' py={2} textAlign='center' pt={5}>
+                Portfolio
+            </Heading>
             <Box display='flex' flexDir='column' px={6}>
                 <img src={widget} alt='' />
                 <Heading fontWeight='200' py={2}>
