@@ -1,7 +1,3 @@
-# Google Colab - https://colab.research.google.com/drive/1IspmUZ9OePdYXwGMsLTI0HM07ThQoOJo?usp=sharing
-
-# Branch for Google Colab - llm-model
-
 <!--
 This repository is to show the cool project you created.
 To make it easier to present, we created this sample, which you can edit and use for your HK project.
