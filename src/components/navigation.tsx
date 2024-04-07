@@ -18,7 +18,6 @@ const Navigation = () => {
             w='full'
             bottom={0}
             py={2}
-            borderTopRadius={20}
         >
             <IconButton
                 aria-label='dashboard'
